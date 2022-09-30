@@ -158,7 +158,7 @@
 - (void)addPlaceholder {
     if (placeholderLabel == nil) {
         placeholderLabel = [UILabel new];
-        [self.layer addSublayer:placeholderLabel.layer];
+        [self addSubview:placeholderLabel];
     }
 }
 
